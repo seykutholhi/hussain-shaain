@@ -1,0 +1,51 @@
+body{
+    background-image: url(pexels-felix-mittermeier-956999.jpg);
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+
+}
+.profile-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+    border-radius: 50%;
+}
+.profile-name{
+    text-align: center;
+
+    padding: 30px;
+    font-size: 28px;
+}
+.links{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    padding: 20px;
+
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+
+    
+}
+a:hover{
+    color:black;
+
+    background-color: white;
+    transition: 0.5s;
+}
